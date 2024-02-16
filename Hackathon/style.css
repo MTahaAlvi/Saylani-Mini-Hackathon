@@ -1,0 +1,208 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #fbf8ff;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 60px 0px 0;
+  z-index: 2;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.banner-section {
+  width: 100%;
+  height: 100vh;
+  background: #fbf8ff url("./Img2/background-hero.png") no-repeat center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  position: relative;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.banner-text h1 {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.banner-text button {
+  background-color: #43ffa1;
+  color: #24053e;
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.banner-mobile-img {
+  transform: translateY(121px);
+}
+.banner-mobile-img img {
+  display: flex;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.bg-left {
+  width: 20%;
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+
+.bg-right {
+  width: 10%;
+  position: absolute;
+  top: 30%;
+  right: 0;
+}
+
+.service-section {
+    padding: 250px 180px 120px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fbf8ff;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.service-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0 30px;
+}
+
+.service-box span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.service-box h4{
+    font-size: 28px;
+    color: #24053e;
+}
+
+.service-box p{
+    width: 90%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+
+.test-section{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.test-text-box{
+    padding: 40px 60px;
+    width: 30%;
+    background-color: #24053e;
+    z-index: 1;
+    position: relative;
+}
+
+.test-text-box h4{
+    font-size: 38px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.test-text-box p{
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 20px;
+    line-height: 28px;
+}
+
+.test-text-box button{
+    font-size: 16px;
+    padding: 15px 25px;
+    color: #24053e;
+    background-color: #43ffa1;
+    border: none;
+    outline: none;
+}
+
+.test-section-img{
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.test-text-box img{
+    width: 20%;
+    position: absolute;
+    bottom: -50px;
+    right: 15%;
+}
+
+footer{
+    padding: 30px 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > img{
+    width: 120px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding-top: 30px;
+}
+
+.icons img{
+    width: 30px;
+}
